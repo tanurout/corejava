@@ -6,5 +6,8 @@ public class MotorBikeRunner {
         MotorBike honda = new MotorBike();
         ducati.start();
         honda.start();
+
+        ducati.setSpeed(100);
+        honda.setSpeed(80);
     }
 }
