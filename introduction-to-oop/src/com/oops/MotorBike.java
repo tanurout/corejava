@@ -4,8 +4,13 @@ public class MotorBike {
    private int speed;//member variable are specific to objects
 
     void setSpeed(int speed){ //local variable
-      this.speed = speed;
+        System.out.println(speed);
+        System.out.println(this.speed);
+        this.speed = speed;
         //System.out.println(speed);
+   }
+       public int getSpeed(){
+        return this.speed;
    }
     void start(){
         System.out.println("Bike started");
